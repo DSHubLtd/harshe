@@ -1,8 +1,8 @@
-# 🌍 Harshe Project – Open ASR & TTS for Hausa Language  
+# 🌍 The Harshe Project – Open ASR & TTS for Hausa Language  
 
 ### 🗣️ Giving Hausa a Voice in the Digital Age  
 
-The **Harshe Project** is a massive open-source initiative to build **speech recognition (ASR)** and **text-to-speech (TTS)** systems for the Hausa language – one of the most spoken African languages, with over **70 million speakers** across Nigeria, Niger, Ghana, Chad, and beyond.  
+The **Harshe Project** is an open-source initiative to build **speech recognition (ASR)** and **text-to-speech (TTS)** systems for the Hausa language – one of the most spoken African languages, with over **70 million speakers** across Nigeria, Niger, Ghana, Chad, and beyond.  
 
 ## ✨ Why Harshe?  
 Language is not just communication – it is **identity, culture, and heritage**. Yet, millions of Hausa speakers are excluded from AI-driven opportunities because most modern speech technologies ignore African languages.  
