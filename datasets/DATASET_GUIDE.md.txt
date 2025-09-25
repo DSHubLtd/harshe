@@ -1,0 +1,127 @@
+📊 DATASET_GUIDE.md – Harshe Project
+
+Welcome to the Harshe Project Dataset Contribution Guide!
+We are collecting and building the largest open-source Hausa Speech & Text Dataset to power ASR (Automatic Speech Recognition) and TTS (Text-to-Speech) models.
+
+Your contributions will directly help Hausa-speaking communities gain access to modern AI tools for education, healthcare, fintech, and public services.
+
+🎙️ How to Contribute Speech Data
+1. Recording Voice Data
+
+Language: Hausa (with dialects such as Kano, Sokoto, Katsina, Zaria, Bauchi, Niger, etc.).
+
+Device: Any smartphone, laptop, or microphone.
+
+Format: WAV or MP3, 16kHz, mono.
+
+Duration: Each clip should be 5–15 seconds long.
+
+Environment: Quiet background, avoid noise/music.
+
+Steps:
+
+Download the provided Hausa sentence list (or submit your own).
+
+Read aloud clearly and naturally.
+
+Save files as:
+
+harshe_speakerID_sentenceID.wav
+Example: harshe_A001_001.wav
+
+
+Upload to the project’s dataset folder or via the shared Google Drive/OSF link.
+
+2. Spontaneous Speech Collection
+
+We also need real conversations, radio clips, stories, interviews.
+
+Transcribe what was said in Hausa.
+
+Label speaker turns if multiple people.
+
+Note the dialect if identifiable.
+
+📝 Text Data Contribution
+
+We also need Hausa written text for training language models.
+
+Sources include:
+
+Academic materials (open-licensed).
+
+News articles.
+
+Folktales, proverbs, literature.
+
+Government/public service announcements.
+
+Format:
+
+UTF-8 plain text (.txt).
+
+One sentence per line.
+
+Avoid code-switching unless tagged.
+
+Example:
+
+Ina kwana.
+Zan tafi makaranta yau.
+Kayan gona sun yi kyau.
+
+🏷️ Annotation & Metadata
+
+For each contribution, please provide:
+
+Speaker ID (anonymous code e.g., A001).
+
+Age group (child, youth, adult, elderly).
+
+Gender (M/F/Other).
+
+Dialect/Region (if known).
+
+Recording environment (quiet room, outdoors, radio, etc.).
+
+📂 Folder Structure
+datasets/
+│── speech/
+│    ├── Kano/
+│    ├── Sokoto/
+│    ├── Katsina/
+│── text/
+│    ├── news/
+│    ├── literature/
+│    ├── education/
+│── metadata.csv
+
+✅ Quality Checklist
+
+ Speech is clear and natural.
+
+ No background music or heavy noise.
+
+ File is correctly named.
+
+ Metadata is complete.
+
+📬 How to Submit
+
+Pull Request to this repo with your dataset.
+
+Or upload to our shared drive (link provided in issues).
+
+Or email large datasets to: 
+
+🏆 Recognition
+
+All dataset contributors will:
+
+Be credited in our Dataset Contributors List.
+
+Receive authorship in research/publications where their data is used.
+
+Be recognized as Founding Data Contributors of the Harshe Project.
+
+❤️ Your voice will help give millions of Hausa speakers access to AI.

@@ -1,0 +1,157 @@
+📘 CONTRIBUTING.md – Harshe Project
+
+Welcome to the Harshe Project!
+We’re building open-source ASR (speech-to-text) and TTS (text-to-speech) tools for Hausa – one of Africa’s most widely spoken languages. This is a community-powered initiative, and every contribution counts.
+
+This is a community-driven open-source initiative to build state-of-the-art ASR (Automatic Speech Recognition) and TTS (Text-to-Speech) for Hausa and other West African languages.
+
+Your contributions—whether code, datasets, research, or ideas—will directly empower millions of speakers and support digital inclusion across Africa.
+
+Thank you for considering joining us in this historic journey.
+
+🌍 🛠️ How You Can Contribute
+
+We need contributors from different backgrounds and skills. Pick your role:
+
+1. Data Collection & Voice Recording
+
+Record your voice reading Hausa sentences (we’ll provide scripts).
+
+Contribute spontaneous speech (stories, conversations, radio snippets).
+
+Annotate and validate recordings from others.
+
+2. Data Cleaning & Annotation
+
+Clean raw text (remove errors, normalize Hausa orthography).
+
+Align speech with transcripts.
+
+Tag dialects, speaker age, and gender when possible.
+
+3. Linguistics Support
+
+Help with Hausa phonetics and dialect variations.
+
+Validate tone markings, vowel length, and regional differences.
+
+Provide linguistic resources, dictionaries, or glossaries.
+
+4. AI/ML Engineering
+
+Work on ASR pipelines (training, evaluation, WER reduction).
+
+Train TTS voices using Tacotron, VITS, or other models.
+
+Optimize models for mobile devices and low-resource settings.
+
+5. Software Development
+
+Build APIs and SDKs to deploy Hausa ASR/TTS.
+
+Create apps and integration demos (education, fintech, health).
+
+Maintain scripts, Dockerfiles, and CI/CD pipelines.
+
+6. Community & Outreach
+
+Translate project docs into Hausa and English.
+
+Share the project with universities, media houses, and tech hubs.
+
+Help organize meetups, workshops, and recordings.
+
+🔧 Getting Started
+
+Fork the repo and clone it locally.
+
+git clone https://github.com/your-username/harshe.git
+cd harshe-project
+
+📝 Contribution Workflow
+
+Create a feature branch:
+
+git checkout -b feature-new-idea
+
+
+Commit your changes with clear messages:
+
+git commit -m "Added Hausa text normalization pipeline"
+
+
+Push your branch:
+
+git push origin feature-new-idea
+
+
+Open a Pull Request (PR) and describe your contribution.
+
+Check open issues to see what’s needed.
+
+Look for tags like good first issue, help wanted, or data.
+
+Set up your environment (we’ll provide detailed setup instructions in the docs).
+
+Submit a Pull Request (PR) with clear descriptions of your changes.
+
+📂 Project Structure
+harshe/
+│── datasets/        # Hausa speech & text datasets
+│── models/          # ASR and TTS models
+│── notebooks/       # Jupyter notebooks for training & experiments
+│── docs/            # Documentation
+│── tools/           # Scripts and utilities
+│── CONTRIBUTING.md  # You are here
+│── README.md
+
+✅ Contribution Guidelines
+
+📊 Guidelines for Data Contributions
+
+Audio must be clear, noise-free, and stored in .wav (16kHz, mono).
+
+Text contributions should be clean, UTF-8 encoded, and free of sensitive info.
+
+Provide metadata (speaker age, gender, dialect, environment) if possible.
+
+Large datasets can be shared via Google Drive, Dropbox, HuggingFace Datasets, or Zenodo.
+
+✅ Code of Conduct
+
+By contributing, you agree to follow our Code of Conduct
+.
+We aim to foster a respectful, inclusive, and supportive community.
+
+🌍 Call to Action
+
+Every contribution matters. Whether you’re a developer, linguist, researcher, data analyst, or voice professional, your input can help shape the future of African language technology.
+
+
+Follow PEP8 style guide (for Python).
+
+Write clear commit messages.
+
+Respect inclusive language.
+
+Be kind, helpful, and collaborative.
+
+🏆 Recognition
+
+All contributors will be:
+
+Listed in our Contributors Hall of Fame.
+
+Credited in published research and demos.
+
+Recognized as part of the Harshe founding community.
+
+📬 Join the Community
+
+Slack/Discord: [Invite Link Coming Soon]
+
+Twitter: 
+
+LinkedIn: 
+
+❤️ Together, we’re giving Hausa a voice in AI.

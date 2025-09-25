@@ -1,0 +1,68 @@
+🛤️ Harshe Project Roadmap
+
+The Harshe Project is a massive open-source initiative to build state-of-the-art ASR (Automatic Speech Recognition) and TTS (Text-to-Speech) systems for Hausa and other West African languages.
+Our mission is to empower millions of speakers through AI-driven language tools that support education, healthcare, fintech, accessibility, and public services.
+
+📅 Phase 1: Dataset Collection (Months 1–6)
+
+✅ Launch community call for speech and text dataset contributions.
+
+✅ Build crowdsourcing platform for voice recordings (web & mobile).
+
+✅ Partner with universities, NGOs, and radio stations across West Africa.
+
+✅ Collect 500+ hours of transcribed Hausa speech across dialects.
+
+✅ Gather 5M+ words of text data (news, folktales, government docs, etc.).
+
+✅ Annotate metadata: speaker age, gender, dialect, environment.
+
+📅 Phase 2: Baseline Models (Months 6–12)
+
+Train first baseline ASR model using open-source frameworks (ESPnet, Hugging Face, OpenSeq2Seq).
+
+Develop baseline TTS voices (male & female).
+
+Release v1 Hausa Speech Corpus (CC-BY license).
+
+Publish technical report & benchmark results.
+
+Organize first Harshe Hackathon to encourage usage and improvements.
+
+📅 Phase 3: Expansion & Collaboration (Year 2)
+
+Scale dataset to 2,000+ hours of diverse Hausa speech.
+
+Add other West African languages (Fulfulde, Kanuri, Yoruba, Igbo, etc.).
+
+Collaborate with governments & education ministries for official use.
+
+Release Harshe API for developers (speech-to-text & text-to-speech).
+
+Engage startups in fintech, healthtech, and edtech to integrate Harshe.
+
+Publish research papers in top AI/ML/NLP conferences.
+
+🌍 Impact Goals
+
+Digital Inclusion: Enable Hausa speakers to interact with technology in their native language.
+
+Education: Translate and narrate learning content for schools & e-learning.
+
+Healthcare: Build ASR tools for health information systems & accessibility.
+
+Economic Growth: Empower startups with localized speech technologies.
+
+Culture Preservation: Digitize and preserve oral traditions, stories, and dialects.
+
+🤝 How to Get Involved
+
+Data Contributors: Submit speech & text data (see DATASET_GUIDE.md).
+
+Researchers: Train and benchmark ASR/TTS models.
+
+Developers: Build apps with Harshe APIs.
+
+Organizations: Partner with us for impact in education, health, and public services.
+
+🚀 Together, we will give Hausa and African languages a powerful voice in the digital age.
