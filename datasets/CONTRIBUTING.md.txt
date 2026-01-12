@@ -1,0 +1,170 @@
+🤝 Contributing to Harshe
+
+An Open Initiative to Give Hausa a Strong Digital Voice
+
+Thank you for your interest in contributing to Harshe.
+By contributing, you are helping millions of Hausa speakers across West Africa gain access to inclusive technology, education, and public services.
+
+This project belongs to all of us.
+
+🌍 What Is Harshe?
+
+Harshe is a large-scale open-source initiative focused on:
+
+📊 Dataset collection
+
+🗣️ Automatic Speech Recognition (ASR)
+
+🔊 Text-to-Speech (TTS)
+
+🧠 Semantic-aware language modeling
+
+Our mission is to build high-quality Hausa language resources that reflect real usage, dialect diversity, and cultural context.
+
+🧩 Who Can Contribute?
+
+We welcome contributors from all backgrounds:
+
+🎙️ Voice recording & voice-over professionals
+
+📚 Linguists & language experts
+
+📊 Data analysts & annotators
+
+🤖 AI / ML engineers
+
+💻 Software developers
+
+🧑🏽‍🏫 Educators & researchers
+
+No contribution is too small.
+
+📂 Types of Contributions
+
+You can contribute by submitting:
+
+Text data (sentences, phrases, dialogues)
+
+Audio recordings (Hausa speech)
+
+Transcriptions (audio → text)
+
+Translations (Hausa ↔ English)
+
+Semantic annotations
+
+Code, tools, or scripts
+
+Documentation improvements
+
+🧠 Semantic Guidelines (VERY IMPORTANT)
+
+Hausa contains many ambiguous words (semantic conflicts).
+Example:
+
+Word	Possible Meanings
+gari	town / flour
+kasa	land / country
+ruwa	water / liquid
+hanya	road / method
+
+👉 Every contribution must clarify meaning using context.
+
+📝 Dataset Submission Format
+
+All dataset contributions must follow this JSON template:
+
+{
+  "id": "unique_id_here",
+  "sentence": "Na tafi gari.",
+  "translation": "I went to town.",
+  "dialect": "Standard Kano",
+  "meaning_tag": "location",
+  "notes": "Word 'gari' used in locational context, not flour.",
+  "speaker_metadata": {
+    "gender": "female",
+    "age_range": "18-24",
+    "region": "Zaria, Nigeria",
+    "native_speaker": true
+  },
+  "recording": {
+    "audio_file": "na_tafi_gari_001.wav",
+    "duration_seconds": 3.1,
+    "quality_check": "passed"
+  },
+  "contributor": {
+    "name": "Anonymous",
+    "role": "Voice Contributor"
+  },
+  "review_status": "pending"
+}
+
+🎙️ Audio Recording Guidelines
+
+Use WAV format
+
+Sample rate: 16kHz or 44.1kHz
+
+Quiet environment (no background noise)
+
+Natural speech (no exaggeration)
+
+One sentence per audio file
+
+🏷️ Dialect Labeling
+
+Please specify dialect clearly:
+
+Standard Hausa
+
+Kano
+
+Katsina
+
+Sokoto
+
+Niger
+
+Northern Ghana
+
+Cameroon Hausa
+
+Dialect diversity is a strength, not a weakness.
+
+🔍 Review Process
+
+Submission → pending
+
+Peer review by linguistic team
+
+Quality check (audio + semantics)
+
+Approval → added to dataset
+
+We aim to teach, not reject. Feedback is constructive.
+
+🛡️ Ethics & Privacy
+
+No hate speech
+
+No political propaganda
+
+No personal identifiable information
+
+Consent required for voice recordings
+
+❤️ Why Your Contribution Matters
+
+Hausa is spoken by over 80 million people, yet remains underrepresented in AI systems.
+
+Your contribution:
+
+Enables inclusive education
+
+Improves public service access
+
+Preserves linguistic heritage
+
+Creates jobs & research opportunities
+
+Builds Africa-owned AI infrastructure
